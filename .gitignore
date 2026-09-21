@@ -1,0 +1,58 @@
+# External technology/library assets: publication rights not confirmed.
+/lib/
+/include/gscl45nm.v
+*.lib
+# Cadence library mapping is project configuration, not a technology library.
+!cds.lib
+*.db
+*.sldb
+*.lef
+*.tlf
+*.gds
+*.gdsii
+
+# Generated synthesis/PnR netlists, SDC/SDF, and reports.
+# Authored constraints in scripts/*.tcl (and future source *.sdc) stay visible.
+/netlist/
+/report/
+/timingReports/
+/pnr/
+/pnr_demo*/
+*.rpt
+*.tarpt
+*.tarpt.gz
+*.svf
+
+# Innovus saved databases, floorplans, and command histories.
+*.enc
+*.enc.dat/
+*.innovus
+*.innovus.dat/
+*.rs
+*.rs.*
+innovus.cmd*
+
+# Cadence simulation libraries, waveforms, and GUI state.
+/work/
+/INCA_libs/
+/xcelium.d/
+/.simvision/
+*.shm/
+*.vcd
+*.vpd
+*.fsdb
+*.sdf.X
+*.sdf.X.*
+
+# Tool logs, temporary files, editor backups, and local agent metadata.
+*.log
+*.log[0-9]*
+*.logv*
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+/.agents/
+/.codex/
